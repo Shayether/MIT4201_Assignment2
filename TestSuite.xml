@@ -1,0 +1,17 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Time Sheet Test Suite" >
+        <classes>
+            <class name="com.actiplans.demo.EmployeeAccessingTheSystem" />
+            <class name="com.actiplans.demo.HRAccessingTheSystem"/>
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+
+
+</suite>

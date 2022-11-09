@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Time Sheet Test Suite"
+           tests="11"
+           failures="3"
+           errors="0"
+           skipped="2"
+           time="69.928">
+  <properties />
+            <testcase name="setUp" time="2.339" classname="com.actiplans.demo.HRAccessingTheSystem">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="unknown error: failed to change window state to &apos;maximized&apos;, current state is &apos;minimized&apos;
+  (Session info: chrome=105.0.5195.127)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SL-NB0090&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\NAF1AC~1.WIJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f7613fb8b27bd07ee5409004dbb23a2"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'minimized'
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SL-NB0090', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\NAF1AC~1.WIJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f7613fb8b27bd07ee5409004dbb23a2
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+  utils.TestApp.openBrowser(TestApp.java:63)
+  com.actiplans.demo.HRAccessingTheSystem.setUp(HRAccessingTheSystem.java:33)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+  org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1259)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testRevokeTimeSheetEntriesFromListViewAfterApproved" time="24.260" classname="com.actiplans.demo.HRAccessingTheSystem">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class=&apos;childRow operationWasApplied rejected&apos;]//*[@class=&apos;revokeCell&apos;]/a (tried for 20 second(s) with 500 milliseconds interval)"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='childRow operationWasApplied rejected']//*[@class='revokeCell']/a (tried for 20 second(s) with 500 milliseconds interval)
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+  utils.TestApp.waitUntilNextElementAppears(TestApp.java:98)
+  com.actiplans.demo.ApproveTimeTrackPage.revokeTimeRequestFromListViewAfterApproved(ApproveTimeTrackPage.java:95)
+  com.actiplans.demo.HRAccessingTheSystem.testRevokeTimeSheetEntriesFromListViewAfterApproved(HRAccessingTheSystem.java:97)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1259)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='childRow operationWasApplied rejected']//*[@class='revokeCell']/a"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SL-NB0090', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\NAF1AC~1.WIJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c2e4d94e5e5666a1fe6864232d00e25
+*** Element info: {Using=xpath, value=//*[@class='childRow operationWasApplied rejected']//*[@class='revokeCell']/a}
+  sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+  org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  utils.TestApp.waitUntilNextElementAppears(TestApp.java:98)
+  com.actiplans.demo.ApproveTimeTrackPage.revokeTimeRequestFromListViewAfterApproved(ApproveTimeTrackPage.java:95)
+  com.actiplans.demo.HRAccessingTheSystem.testRevokeTimeSheetEntriesFromListViewAfterApproved(HRAccessingTheSystem.java:97)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1259)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testEmptyTimeSheetRequestPage" time="3.565" classname="com.actiplans.demo.HRAccessingTheSystem">
+                <failure type="java.lang.AssertionError"
+                  message="expected [Check invalid data to Fail the test case] but found [There are no entries found]"
+              >
+<![CDATA[java.lang.AssertionError: expected [Check invalid data to Fail the test case] but found [There are no entries found]
+  org.testng.Assert.fail(Assert.java:110)
+  org.testng.Assert.failNotEquals(Assert.java:1413)
+  org.testng.Assert.assertEqualsImpl(Assert.java:149)
+  org.testng.Assert.assertEquals(Assert.java:131)
+  org.testng.Assert.assertEquals(Assert.java:655)
+  org.testng.Assert.assertEquals(Assert.java:665)
+  com.actiplans.demo.HRAccessingTheSystem.testEmptyTimeSheetRequestPage(HRAccessingTheSystem.java:146)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1259)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.actiplans.demo.HRAccessingTheSystem">
+          <skipped />
+    </testcase>
+            <testcase name="testRevokeTimeSheetEntriesFromListViewAfterReject" time="0.0" classname="com.actiplans.demo.HRAccessingTheSystem">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testRevokeTimeSheetEntriesFromDetailViewAfterApproved" time="9.776" classname="com.actiplans.demo.HRAccessingTheSystem" />
+                <testcase name="testApproveTimeEntriesFromDetailView" time="6.660" classname="com.actiplans.demo.HRAccessingTheSystem" />
+                <testcase name="testRevokeTimeSheetEntriesFromDetailViewAfterReject" time="9.905" classname="com.actiplans.demo.HRAccessingTheSystem" />
+                <testcase name="testRejectTimeSheetEntriesFromDetailView" time="6.722" classname="com.actiplans.demo.HRAccessingTheSystem" />
+                <testcase name="testRejectTimeSheetEntriesFromListView" time="3.446" classname="com.actiplans.demo.HRAccessingTheSystem" />
+                <testcase name="testApproveTimeEntriesFromListView" time="3.255" classname="com.actiplans.demo.HRAccessingTheSystem" />
+      
+</testsuite>
